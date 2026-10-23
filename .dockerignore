@@ -1,0 +1,18 @@
+**/.venv/**
+**/dist/**
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/build/
+
+backend/swippter/.env
+
+# Add frontend exclusions to the same file
+frontend/.env
+frontend/node_modules/
+frontend/dist/
+**/.react-router
+
+*.svg
+*.excalidraw
+.ruff_cache
